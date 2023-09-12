@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  width: 12rem;
+  height: 15rem;
+  border: 2px solid;
+  border-image: linear-gradient(90deg, #F1316D, #4E1A6C)0.5;
+  border-radius: 0.4rem;
+  font-family: "Rubik", sans-serif;
+  color: #FFFFFF;
+  transition: 0.3s;
+  > img {
+    object-fit: cover;
+    width: 90%;
+    height: 50%;
+    border-radius: 1rem;
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.backgound_img{
+  position: absolute;
+  
+}
+
+.rating{
+  position: absolute;
+  background-color: #4e1a6c6b;
+  border-radius: 15px;
+  margin: 2px;
+  padding: 2px;
+  top: -15px;
+}
